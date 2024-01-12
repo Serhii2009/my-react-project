@@ -4,7 +4,7 @@ export const BookList = ({ books }) => {
       {books.map((book) => {
         return (
           <li key={book.id}>
-            {book.author}: {book.title}
+            {book.id}. {book.name}
           </li>
         );
       })}
