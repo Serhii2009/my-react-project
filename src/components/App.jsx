@@ -6,10 +6,12 @@ import { HiOutlineArrowLongDown } from "react-icons/hi2";
 import { SearchBar } from "./SearchBar";
 import { LangSwitcher } from "./LangSwitcher ";
 import { LoginForm } from "./LoginForm ";
+// import { FeedbackForm } from "./initialValues";
 
 export const App = () => {
   return (
     <>
+      {/* <FeedbackForm /> */}
       <LoginForm />
       <h1>Books of the week</h1>
       <LangSwitcher />
