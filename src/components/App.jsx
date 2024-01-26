@@ -5,15 +5,17 @@ import { Alert } from "./Alert";
 import { HiOutlineArrowLongDown } from "react-icons/hi2";
 import { SearchBar } from "./SearchBar";
 import { LangSwitcher } from "./LangSwitcher ";
+import { LoginForm } from "./LoginForm ";
 
 export const App = () => {
   return (
     <>
+      <LoginForm />
       <h1>Books of the week</h1>
-      <BookList books={favouriteBooks} />
-      <HiOutlineArrowLongDown />
       <LangSwitcher />
       <SearchBar />
+      <BookList books={favouriteBooks} />
+      <HiOutlineArrowLongDown />
       <Alert variont="good">All good!</Alert>
       <App1 />
       <Alert variont="warning">
